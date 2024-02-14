@@ -1,0 +1,74 @@
+* {
+  font-family: sans-serif;
+}
+
+/* added some body adjustments */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #a19494;
+}
+
+input, button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
+
+/* added css for other buttons just for the hell of it */
+.plus {
+  background: lightgreen;
+  color: white;
+}
+
+.minus {
+  background: lightblue;
+  color: white;
+}
+
+.multy {
+  background: rgb(248, 248, 40);
+  color: rgb(242, 126, 126);
+}
+
+.divy {
+  background: rgb(248, 40, 40);
+  color: white;
+}
+
+/* created a screen area for the calulators result field */
+.screen {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-color: #4357692d;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+}
